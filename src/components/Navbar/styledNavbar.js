@@ -3,23 +3,25 @@ import styled from "styled-components/macro";
 export const Nav = styled.nav``;
 
 export const Container = styled.section`
+    /* border: 2px solid #f00; */
     display: flex;
     padding: 10px;
     align-items: center;
+    max-height: 200px;
 
     @media (max-width: 1100px) {
         justify-content: space-between;
-        height: 65px;
         padding: 0px 30px;
     }
 `;
 
 export const LogoBox = styled.div`
-    /* flex: 0.2; */
+    display: flex;
+    height: 100%;
 `;
 
 export const Logo = styled.img`
-    width: 100px;
+    height: 100px;
 `;
 
 export const Menu = styled.ul`
@@ -30,7 +32,7 @@ export const Menu = styled.ul`
     @media (max-width: 1100px) {
         display: none;
         position: absolute;
-        top: 65px;
+        top: 105px;
         left: 0px;
         background-color: rgba(226, 266, 266, 0.5);
         border-bottom: 4px solid #950163;
@@ -76,6 +78,7 @@ export const MenuLink = styled.a`
 `;
 
 export const BtnBox = styled.div`
+border: 2px solid #ee0;
     @media(max-width: 1100px) {
         display: none;
     }
@@ -99,6 +102,8 @@ export const Btn = styled.button`
         opacity: 0.9;
     }
 `;
+
+// Responsive Menu
 
 export const MenuIcon = styled.label`
     display: none;

@@ -3,9 +3,9 @@ import {
     Container,
     LogoBox,
     Logo,
-    MenuIcon,
-    NavIcon,
-    MenuBtn,
+    // MenuIcon,
+    // NavIcon,
+    // MenuBtn,
     Menu,
     MenuItem,
     MenuLink,
@@ -20,22 +20,22 @@ const Navbar = () => {
                 <LogoBox>
                     <Logo src="/Images/logo.png" alt="logo" />
                 </LogoBox>
-                <MenuBtn id="menu-btn" className="menu-btn" type="checkbox" />
+                {/* <MenuBtn id="menu-btn" className="menu-btn" type="checkbox" />
                 <MenuIcon htmlFor="menu-btn" for="menu-btn" className="menu-icon">
                     <NavIcon className="nav-icon"></NavIcon>
-                </MenuIcon>
+                </MenuIcon> */}
                 <Menu>
                     <MenuItem>
-                        <MenuLink href="https://www.music.youtube.com">Home</MenuLink>
+                        <MenuLink>Home</MenuLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuLink href="https://www.music.youtube.com">Explore</MenuLink>
+                        <MenuLink>Explore</MenuLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuLink href="https://www.music.youtube.com">Library</MenuLink>
+                        <MenuLink>Library</MenuLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuLink href="https://www.music.youtube.com">Search</MenuLink>
+                        <MenuLink>Search</MenuLink>
                     </MenuItem>
                 </Menu>
 
