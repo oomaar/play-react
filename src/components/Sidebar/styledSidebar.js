@@ -2,7 +2,14 @@ import styled from "styled-components/macro";
 
 export const Section = styled.section``;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+    display: none;
+    
+    @media (max-width: 1100px) {
+        display: flex;
+        flex-direction: column;
+    }
+`;
 
 export const SmallLogoBox = styled.div``;
 

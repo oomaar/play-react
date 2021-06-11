@@ -13,11 +13,11 @@ import {
 const Sidebar = () => {
     return (
         <Section>
-            <Container>
+            {/* <Container>
                 <SmallLogoBox>
                     <SmallLogo>LOGO</SmallLogo>
                 </SmallLogoBox>
-            </Container>
+            </Container> */}
         </Section>
     );
 };

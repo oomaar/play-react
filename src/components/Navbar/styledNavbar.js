@@ -9,6 +9,10 @@ export const Container = styled.section`
     align-items: center;
     max-height: 200px;
 
+    &.menu-burger{
+        height: 30px;
+    }
+
     @media (max-width: 1100px) {
         justify-content: space-between;
         padding: 0px 30px;
@@ -78,7 +82,6 @@ export const MenuLink = styled.a`
 `;
 
 export const BtnBox = styled.div`
-border: 2px solid #ee0;
     @media(max-width: 1100px) {
         display: none;
     }
@@ -103,6 +106,15 @@ export const Btn = styled.button`
     }
 `;
 
+export const Burger = styled.div`
+    display: none;
+
+    @media(max-width: 1100px) {
+        display: flex;
+    }
+`;
+
+// Old Code!
 // Responsive Menu
 
 export const MenuIcon = styled.label`
