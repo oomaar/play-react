@@ -1,11 +1,12 @@
 import styled from "styled-components/macro";
-import { Header, Navbar } from "./components";
+import { Accordion, Header, Navbar } from "./components";
 
 const App = () => {
   return (
     <Application>
       <Navbar />
       <Header />
+      <Accordion />
     </Application>
   );
 };
