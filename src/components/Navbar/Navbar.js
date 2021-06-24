@@ -11,7 +11,7 @@ import {
     MenuLink,
     BtnBox,
     Btn,
-    Burger
+    // Burger
 } from "./styledNavbar";
 
 const Navbar = () => {

@@ -34,9 +34,8 @@ const Accordion = () => {
                         <AccordionContainer>
                             {accordionData.map((item, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <AccordionWrap
-                                            key={index}
                                             onClick={() => toggle(index)}
                                         >
                                             <h1>{item.title}</h1>
@@ -49,7 +48,7 @@ const Accordion = () => {
                                         ) : (
                                             null
                                         )}
-                                    </>
+                                    </div>
                                 )
                             })}
                         </AccordionContainer>
