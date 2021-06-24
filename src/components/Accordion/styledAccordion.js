@@ -2,7 +2,6 @@ import styled from "styled-components/macro";
 
 export const Container = styled.div`
   padding: 20px;
-  border: 2px solid #f00;
 `;
 
 export const SubContainer = styled.div`

@@ -54,7 +54,6 @@ const Accordion = () => {
                             })}
                         </AccordionContainer>
                     </AccordionSection>
-                    Accordion
                 </IconContext.Provider>
             </SubContainer>
         </Container>
