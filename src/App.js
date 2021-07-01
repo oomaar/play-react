@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import { Accordion, Form, Header, Navbar } from "./components";
+import { Accordion, Form, Header, Navbar, Hover } from "./components";
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Header />
       <Accordion />
       <Form />
+      <Hover />
     </Application>
   );
 };
